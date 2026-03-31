@@ -1,53 +1,38 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NightGuard Flashlight - 技术支持</title>
-    <style>
-        /* 极简 CSS Reset & Style */
-        * { box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #ffffff;
-        }
-        h1 { color: #1a1a1a; font-size: 28px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        h2 { color: #2c3e50; margin-top: 25px; font-size: 20px; }
-        p { margin: 10px 0; }
-        .note { background: #f8f9fa; border-left: 4px solid #0366d6; padding: 10px; margin: 15px 0; font-size: 0.95em; }
-        .footer { margin-top: 40px; text-align: center; color: #586069; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 20px; }
-        a { color: #0366d6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
+# NightGuard Flashlight 技术支持
 
-    <h1>🛡️ NightGuard Flashlight 技术支持</h1>
+欢迎来到 NightGuard Flashlight 的官方技术支持页面。
 
-    <p>感谢您使用 <strong>NightGuard Flashlight</strong>。本页面提供常见问题解答，帮助您充分利用 SOS 紧急信号、夜间照明及呼吸灯等功能。</p>
+本页面旨在帮助您解决在使用 **NightGuard Flashlight** (版本 1.0) 时遇到的常见问题，包括 SOS 紧急信号、呼吸灯及夜间照明模式的使用。
 
-    <h2>⚙️ 常见问题 (FAQ)</h2>
+## 🛠️ 常见问题 (FAQ)
 
-    <h3>1. 为什么打开应用时没有反应？</h3>
-    <p>请确保您已在 iPhone 的“设置” -> “NightGuard Flashlight” 中授权 <strong>相机</strong> 或 <strong>闪光灯</strong> 权限。没有此权限，应用无法控制手电筒。</p>
+### 1. 为什么手电筒无法开启？
+- 请检查您的手机设置，确保已授予 NightGuard Flashlight 使用 **相机/闪光灯** 的权限。
+- 如果是 iPhone 用户，请在“设置” -> “NightGuard Flashlight” -> 打开“相机”权限。
 
-    <h3>2. 如何使用 SOS 紧急求救模式？</h3>
-    <p>SOS 模式通常会在屏幕显著位置显示（如红色按钮）。点击后，闪光灯会按照国际通用的摩斯电码 <strong>SOS (···---···)</strong> 频率闪烁，用于紧急求救。</p>
+### 2. SOS 模式如何触发？
+SOS 模式通常设计为一键触发。请尝试在主界面长按或双击主控按钮。具体操作请参考 App 内的引导提示。
 
-    <h3>3. “呼吸灯”模式是什么？</h3>
-    <p>呼吸灯模式是指灯光会像呼吸一样柔和地 <strong>由亮变暗，再由暗变亮</strong>，循环往复。这种模式常用于夜间氛围照明或减少视觉疲劳。</p>
+### 3. 呼吸灯模式不闪烁怎么办？
+请检查后台运行权限。部分安卓手机（如小米、华为等）会限制后台应用使用闪光灯，请将本 App 加入“后台运行白名单”或“电池优化忽略列表”。
 
-    <div class="note">
-        <strong>💡 小贴士：</strong> 为了节省电量，请在不使用时及时关闭应用或停止灯光模式。
-    </div>
+### 4. 为什么页面显示代码？
+如果您在访问支持页面时看到 `<!DOCTYPE html>` 代码：
+- 这通常是因为 GitHub Pages 配置尚未生效，或文件名未正确保存为 `index.html`。
+- 请稍后再试，或确认仓库中的文件名。
 
-    <h2>🛠️ 故障排除</h2>
+## 📧 联系我们
 
+如果您在使用应用时遇到问题、有建议或需要帮助，请通过以下方式联系我们：
+
+- **邮箱**：[weigeload@gmail.com](mailto:weigeload@gmail.com)
+- **响应时间**：我们会在 1-2 个工作日内回复您。
+
+> **注意**：本页面仅提供技术支持。关于 App Store 的购买或退款问题，请直接联系苹果官方支持。
+
+---
+
+Made with ❤️ for NightGuard Flashlight Users
     <p>如果遇到以下情况，请尝试重启您的 iPhone 或重新安装应用：</p>
     <ul>
         <li>灯光无法关闭。</li>
